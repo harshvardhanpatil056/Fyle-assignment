@@ -1,0 +1,303 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:400,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+
+body
+{
+	margin: 0;
+}
+header
+{
+	display;block;
+	background:url(page3.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:white;
+	padding: 8px 0px 6px 40px;
+	height: 100px;
+}
+header h1
+{
+	display:inline;
+	font-family:'Oswald',sans-serif;
+	font-weight:400;
+	font-size:32px;
+	float:left;
+	margin-top: 0px;
+	margin-right:10px;
+}
+nav ul
+{
+	display:inline;
+	padding: 0px;
+	float:left;
+}
+nav ul li
+{
+	display:inline-block;
+	list-style-type:none;
+	color:white;
+	float:left;
+	margin-left:38;
+	opacity:0.8;
+}
+nav ul li a
+{
+	color:white;
+	text-decoration:none;
+}
+ #nav
+ {
+	 font-family:'Montserrat' ,sans-serif;
+ }
+.homered
+{
+	background-color:black;
+	padding: 15px 10px 10px 10px;
+}
+
+.homelogout
+{
+	
+	background: transparent;
+	border:none;
+	outline:none;
+	color:#fff;
+	background: #03a9f4;
+	padding: 10px 20px;
+	cursor:pointer;
+	border-radius:5px;
+	background-color:red;
+	padding: 05px 05px 04px 08px;
+}
+.homelogout:hover
+{
+	background-color:blue;
+	padding:05px 05px 04px 08px;
+}	
+.divider
+{
+		background-color:black;
+		height:5px;
+}
+.homeblack:hover
+{
+	background-color:blue;
+	padding:15px 10px 4px 10px;
+}
+.image
+{
+		
+		background-image:url(page.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		width:100%;
+		height:100%;
+		margin-top:0;
+		padding:0;
+			top:0;
+			left:0;
+}
+
+
+
+
+.face
+{
+	display:block;
+	position:relative;
+	top:66%;
+	padding:10px;
+	width:265px;
+	height:60px;
+	margin:auto;
+}
+
+.face1
+{
+	display:block;
+	position:relative;
+	top:66%;
+	padding:10px;
+	width:265px;
+	height:60px;
+	margin:auto;
+}
+.face2
+{
+	display:block;
+	position:relative;
+	top:66%;
+	padding:10px;
+	width:265px;
+	height:60px;
+	margin:auto;
+}
+.face a img:hover{
+	
+	width:70px;
+	height:70px;
+}
+
+.face1 a img:hover{
+	
+	width:70px;
+	height:70px;
+}
+
+.face2 a img:hover{
+	
+	width:70px;
+	height:70px;
+}
+.face a img
+{
+	width:60px;
+	height:60px;
+}
+.face1 a img
+{
+	width:60px;
+	height:60px;
+}
+.face2 a img
+{
+	width:60px;
+	height:60px;
+}
+.top-left {
+	color:white;
+    position: absolute;
+    top: 100px;
+    left: 16px;
+}
+
+.top-right {
+	color:red;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.centered {
+	color:white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.network {
+	color:blue;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+.image h1,h2,h3,h4,h5{
+	
+	color:white;
+	
+}
+.opac
+{
+	opacity: 0.6;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.opac1
+{
+	opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
